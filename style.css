@@ -2361,10 +2361,30 @@ body{
 .news-single .news-content p:last-child{
 	margin:0;
 }
+.news-single .aboutus-text p {
+	font-size: 15px;
+	margin:30px 0;
+}
+
+/* about us */
 .news-single .news-text p {
 	font-size: 14px;
 	margin-bottom:20px;
 }
+
+.news-single h1 span {
+    color: #1a76d1;
+	font-size: 32px;
+}
+.news-single p span {
+    color: #1a76d1;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgba(144, 146, 163, var(--text-opacity));
+	text-align:justify;
+}
+
+
 /* Image Gallery */
 .news-single .image-gallery {
 	margin-bottom: 20px;
