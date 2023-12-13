@@ -2380,7 +2380,7 @@ body{
     color: #1a76d1;
 	font-weight: 500;
 	font-size: 20px;
-	color: rgba(144, 146, 163, var(--text-opacity));
+	color: #666;
 	text-align:justify;
 }
 
