@@ -1650,6 +1650,7 @@ body{
 	font-size:36px;
 	font-weight:600;
 	color:#1a76d1;
+	text-align: center;
 }
 .pricing-table .single-table .amount span{
 	display:inline-block;
