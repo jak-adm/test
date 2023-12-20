@@ -2,7 +2,8 @@
 $name = $_POST{'name'};
 $email = $_POST{'email'};
 $phone = $_POST{'phone'};
-$subject = $_POST{'subject'};
+$jobtitle = $_POST{'jobtitle'};
+$date = $_POST{'date'};
 $message = $_POST['message'];
 
 $email_message = "
@@ -10,12 +11,13 @@ $email_message = "
 Name: ".$name."
 Email: ".$email."
 Phone: ".$phone."
+jobtitle".$jobtitle."
 Subject: ".$subject."
 Message: ".$message."
 
 ";
 
-mail ("name@youremail.com" , "New Message", $email_message);
+mail ("adm.jakaria@gmail.com" , "New Message", $email_message);
 header("location: ../mail-success.html");
 ?>
 
